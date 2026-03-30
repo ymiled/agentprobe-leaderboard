@@ -1,16 +1,27 @@
+# AgentBeats assessment scenario
+
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+# Fill in your green agent's details
+agentbeats_id = "019d3d62-4259-7441-9a0c-e983db345ba8"  
+[green_agent.env]
+ANTHROPIC_API_KEY = "${ANTHROPIC_API_KEY}"
+LOG_LEVEL = "INFO"
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
+name = "attacker"
+agentbeats_id = ""  # To be filled by submitter
+[participants.env]
+# Add any required secrets here, e.g.:
+# OPENAI_API_KEY = "${OPENAI_API_KEY}"
 
 [[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+name = "defender"
+agentbeats_id = ""  # To be filled by submitter
+[participants.env]
+# Add any required secrets here
 
 [config]
-# Add your assessment config here
+# Assessment parameters (customize as needed)
+competitor_agent_url = "http://purple_agent:${AGENT_PORT}"
+attacks = "all"
+recon_messages = 4
