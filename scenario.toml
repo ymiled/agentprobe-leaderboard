@@ -20,6 +20,7 @@ agentbeats_id = "019d3d65-ddc5-7c60-9d64-e5a1ac654e19"
 [participants.env]
 ANTHROPIC_API_KEY = "${ANTHROPIC_API_KEY}"
 
+
 [config]
 # Passed to AgentProbe SendMessage (data part); purple_agent is the compose service name.
 competitor_agent_url = "http://purple_agent:${AGENT_PORT}"
