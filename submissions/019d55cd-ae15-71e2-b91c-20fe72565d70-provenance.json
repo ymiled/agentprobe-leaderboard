@@ -1,0 +1,22 @@
+{
+  "image_digests": {
+    "/agent": "ghcr.io/ymiled/agentprobe-demo-competitor@sha256:3c19e5ae38e57fbc6dc8e72f18ac423ec5e45eaa31e968b7121902e4e70479ee",
+    "/gateway": "ghcr.io/rdi-foundation/agentbeats-gateway@sha256:3f9976889c598092dc4273312ec431cbc48bbe064ff65b5613425f4990bc1d4c",
+    "/green": "ghcr.io/ymiled/agentprobe@sha256:31d0afde3b81347cab38ddfd83d45ad45a4b42d5f815d7eba2dc9ff741855987"
+  },
+  "manifest_digests": {
+    "/": "sha256:+Z54E7wADqYfQB4K3rkmYEJskj6w/GDtYi+JK/A2C0E=",
+    "/agent": "sha256:I1B+pULU2CaJSUwE5h6ixcXP7lZuNFMoMGz8fUo3RO0=",
+    "/gateway": "sha256:0nK+Cnn/T4UOQIP2JqNrAx8gHGVWjBsCUTBFgYgC44c=",
+    "/green": "sha256:u8V0rQqwGgc+j82WJvlUtTGXrI4bszVYLxk1NUdx9tk="
+  },
+  "timestamp": "2026-04-04T00:07:53Z",
+  "github_actions": {
+    "run_url": "https://github.com/ymiled/agentprobe-leaderboard/actions/runs/23966778289",
+    "ref": "refs/pull/43/merge",
+    "sha": "cf764b86febf004a794ece07442aafa7604a4293",
+    "repository_url": "https://github.com/ymiled/agentprobe-leaderboard",
+    "workflow_ref": "ymiled/agentprobe-leaderboard/.github/workflows/quick-submit.yml@refs/pull/43/merge",
+    "workflow_sha": "cf764b86febf004a794ece07442aafa7604a4293"
+  }
+}
